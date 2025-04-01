@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-Marine-blue: hsl(213, 96%, 18%);
+    --color-Purplish-blue: hsl(243, 100%, 62%);
+    --color-Pastel-blue: hsl(228, 100%, 84%);
+    --color-Light-blue: hsl(206, 94%, 87%);
+    --color-Strawberry-red: hsl(354, 84%, 57%);
+
+    /* Neutral */
+
+    --color-Cool-gray: hsl(231, 11%, 63%);
+    --color-Light-gray: hsl(229, 24%, 87%);
+    --color-Magnolia: hsl(217, 100%, 97%);
+    --color-Alabaster: hsl(231, 100%, 99%);
+    --color-White: hsl(0, 0%, 100%);
+
+}

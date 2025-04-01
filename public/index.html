@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Multi-step form</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="output.css">
+  <script src="index.js" defer></script>
+
+</head>
+<body>
+
+  <div class="holder">
+    <div class="sidebar flex justify-center relative w-full h-[25dvh]">
+      <nav class="flex w-2/3 top-8 relative">
+        <ul class="navlist flex w-full justify-evenly">
+          <li class="navli">
+            <a href="" class="nav">
+              <button class="text-lg border border-Light-blue text-Light-blue rounded-[50%] w-[30px] h-[30px]">1</button>
+              <div class="navp">
+                <span>STEP 1</span>
+                <span> YOUR INFO</span>
+              </div>
+            </a>
+          </li>
+          <li class="navli">
+            <a href="" class="nav">
+              <button class="text-lg border border-Light-blue text-Light-blue rounded-[50%] w-[30px] h-[30px]">2</button>
+              <div class="navp">
+                <span>STEP 2</span>
+                <span> SELECT PLAN</span>
+              </div>
+            </a>
+          </li>
+          <li class="navli">
+            <a href="" class="nav">
+              <button class="text-lg border border-Light-blue text-Light-blue rounded-[50%] w-[30px] h-[30px]">3</button>
+              <div class="navp">
+                <span>STEP 3</span>
+                <span> ADD-ONS</span>
+              </div>
+            </a>
+          </li>
+          <li class="navli">
+            <a href="" class="nav">
+              <button class="text-lg border border-Light-blue text-Light-blue rounded-[50%] w-[30px] h-[30px]">4</button>
+              <div class="navp">
+                <span>STEP 4</span>
+                <span> SUMMARY </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="bg-Light-blue relative h-[75dvh]">
+      <form action="" class="">
+
+        <div class="steps bg-White absolute rounded-xl -top-16 mx-2.5">
+
+          <div class="step1 p-3.5 pt-5 max-h-max"> 
+            <div class="flex flex-col gap-4 pb-4">
+              <h1 class="text-xl text-Marine-blue font-bold">Personal info</h1>
+              <p class="text-Cool-gray">
+                please provide your name, email address, and phone number.
+              </p>
+              <div>
+                <label for="name" class="block text-sm">Name</label>
+                <input type="text" id="name" class="w-full border border-[1px] border-Pastel-blue py-2 px-3 rounded-md" placeholder="e.g. Steven King">
+              </div>
+  
+              <div>
+                <label for="email" class="block text-sm">Name</label>
+                <input type="email" id="email" class="w-full border border-[1px] border-Pastel-blue py-2 px-3 rounded-md" placeholder="e.g. stevenking@lorem.com">
+              </div>
+  
+              <div>
+                <label for="number" class="block text-sm">Name</label>
+                <input type="tel" id="number" class="w-full border border-[1px] border-Pastel-blue py-2 px-3 rounded-md" placeholder="e.g. +1 234 567 890">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="btn absolute bottom-[0] left-0 w-full h-[15%] bg-Magnolia">
+          <div class="flex justify-between p-4">
+            <button type="button" class="invisible"> Go Back</button>
+            <button type="button" class="bg-Marine-blue text-Pastel-blue text-lg font-normal p-4 px-5 rounded-lg"> Next Step</button>
+          </div>
+        </div>
+
+      </form>
+      
+    </section>
+  </div>
+
+
+
+  <!-- Step 2 start -->
+<!-- 
+  Select your plan
+  You have the option of monthly or yearly billing.
+
+  Arcade
+  $9/mo
+
+  Advanced
+  $12/mo
+
+  Pro
+  $15/mo
+
+  Monthly
+  Yearly
+
+  Go Back
+  Next Step -->
+
+  <!-- Step 2 end -->
+
+  <!-- Step 3 start -->
+
+  <!-- Pick add-ons
+  Add-ons help enhance your gaming experience.
+
+  Online service
+  Access to multiplayer games
+  +$1/mo
+
+  Larger storage
+  Extra 1TB of cloud save
+  +$2/mo
+
+  Customizable Profile
+  Custom theme on your profile
+  +$2/mo
+
+  Go Back
+  Next Step -->
+
+  <!-- Step 3 end -->
+
+  <!-- Step 4 start -->
+
+  <!-- Finishing up
+  Double-check everything looks OK before confirming. -->
+
+  <!-- Dynamically add subscription and add-on selections here -->
+
+  <!-- Total (per month/year)
+
+  Go Back
+  Confirm -->
+
+  <!-- Step 4 end -->
+
+  <!-- Step 5 start -->
+
+  <!-- Thank you!
+
+  Thanks for confirming your subscription! We hope you have fun 
+  using our platform. If you ever need support, please feel free 
+  to email us at support@loremgaming.com. -->
+
+  <!-- Step 5 end -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
