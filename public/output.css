@@ -28,7 +28,6 @@
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --font-weight-normal: 400;
-    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --radius-md: 0.375rem;
     --radius-lg: 0.5rem;
@@ -39,9 +38,7 @@
     --color-Pastel-blue: hsl(228, 100%, 84%);
     --color-Light-blue: hsl(206, 94%, 87%);
     --color-Cool-gray: hsl(231, 11%, 63%);
-    --color-Light-gray: hsl(229, 24%, 87%);
     --color-Magnolia: hsl(217, 100%, 97%);
-    --color-Alabaster: hsl(231, 100%, 99%);
     --color-White: hsl(0, 0%, 100%);
   }
 }
@@ -200,17 +197,11 @@
   .static {
     position: static;
   }
-  .-top-7 {
-    top: calc(var(--spacing) * -7);
-  }
   .-top-16 {
     top: calc(var(--spacing) * -16);
   }
   .top-8 {
     top: calc(var(--spacing) * 8);
-  }
-  .bottom-0 {
-    bottom: calc(var(--spacing) * 0);
   }
   .bottom-\[0\] {
     bottom: 0;
@@ -239,23 +230,17 @@
   .h-\[15\%\] {
     height: 15%;
   }
-  .h-\[20\%\] {
-    height: 20%;
-  }
   .h-\[25dvh\] {
     height: 25dvh;
-  }
-  .h-\[30dvh\] {
-    height: 30dvh;
   }
   .h-\[30px\] {
     height: 30px;
   }
-  .h-\[70dvh\] {
-    height: 70dvh;
-  }
   .h-\[75dvh\] {
     height: 75dvh;
+  }
+  .h-\[inherit\] {
+    height: inherit;
   }
   .max-h-max {
     max-height: max-content;
@@ -268,6 +253,9 @@
   }
   .w-\[30px\] {
     width: 30px;
+  }
+  .w-\[inherit\] {
+    width: inherit;
   }
   .w-full {
     width: 100%;
@@ -284,9 +272,6 @@
   .flex-col {
     flex-direction: column;
   }
-  .items-center {
-    align-items: center;
-  }
   .justify-between {
     justify-content: space-between;
   }
@@ -295,9 +280,6 @@
   }
   .justify-evenly {
     justify-content: space-evenly;
-  }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -314,21 +296,9 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .rounded-b-lg {
-    border-bottom-right-radius: var(--radius-lg);
-    border-bottom-left-radius: var(--radius-lg);
-  }
-  .rounded-b-md {
-    border-bottom-right-radius: var(--radius-md);
-    border-bottom-left-radius: var(--radius-md);
-  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
   }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
@@ -340,14 +310,8 @@
   .border-Pastel-blue {
     border-color: var(--color-Pastel-blue);
   }
-  .bg-Alabaster {
-    background-color: var(--color-Alabaster);
-  }
   .bg-Light-blue {
     background-color: var(--color-Light-blue);
-  }
-  .bg-Light-gray {
-    background-color: var(--color-Light-gray);
   }
   .bg-Magnolia {
     background-color: var(--color-Magnolia);
@@ -355,20 +319,8 @@
   .bg-Marine-blue {
     background-color: var(--color-Marine-blue);
   }
-  .bg-Pastel-blue {
-    background-color: var(--color-Pastel-blue);
-  }
   .bg-White {
     background-color: var(--color-White);
-  }
-  .bg-contain {
-    background-size: contain;
-  }
-  .bg-cover {
-    background-size: cover;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -406,9 +358,6 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
-  .text-\[12px\] {
-    font-size: 12px;
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -417,18 +366,11 @@
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
   }
-  .font-semibold {
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight: var(--font-weight-semibold);
-  }
   .text-Cool-gray {
     color: var(--color-Cool-gray);
   }
   .text-Light-blue {
     color: var(--color-Light-blue);
-  }
-  .text-Light-gray {
-    color: var(--color-Light-gray);
   }
   .text-Marine-blue {
     color: var(--color-Marine-blue);
@@ -442,13 +384,6 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-  .hover\:bg-Light-blue {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-Light-blue);
-      }
-    }
   }
 }
 @property --tw-rotate-x {
